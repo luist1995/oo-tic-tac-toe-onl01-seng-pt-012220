@@ -90,7 +90,7 @@ class TicTacToe
    end
    
    def draw?
-    full? || WIN_COMBINATIONS
+    full? 
    end
 
 end
