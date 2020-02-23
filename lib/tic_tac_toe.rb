@@ -98,7 +98,7 @@ class TicTacToe
    end
    
    def winner
-    
+    won? ?
    end
 
 end
