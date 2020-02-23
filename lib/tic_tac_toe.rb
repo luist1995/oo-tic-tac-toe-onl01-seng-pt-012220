@@ -99,9 +99,9 @@ class TicTacToe
    
    def winner
     if won? == "X"
-      puts "X"
+      return "X"
     else
-      puts "O"
+      return "O"
     end
    end
 
