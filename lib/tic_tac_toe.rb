@@ -90,7 +90,7 @@ class TicTacToe
    end
    
    def draw?
-    full
+    full?
    end
 
 end
