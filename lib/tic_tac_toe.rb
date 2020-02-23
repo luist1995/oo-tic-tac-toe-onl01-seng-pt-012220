@@ -105,6 +105,8 @@ class TicTacToe
     turn until over?
     if winner
       puts "Congratulations #{winner}!"
+    else
+      puts "Cat's Game!"
     end
    end
 
