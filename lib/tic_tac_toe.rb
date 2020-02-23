@@ -90,7 +90,11 @@ class TicTacToe
    end
    
    def draw?
-    full? 
+    if full?
+      true
+    else
+      false
+    end
    end
 
 end
