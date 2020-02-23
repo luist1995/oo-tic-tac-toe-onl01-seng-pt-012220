@@ -102,6 +102,7 @@ class TicTacToe
       puts "X"
     else
       puts "O"
+    end
    end
 
 end
