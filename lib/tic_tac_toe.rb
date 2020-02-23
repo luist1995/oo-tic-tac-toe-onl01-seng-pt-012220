@@ -96,5 +96,12 @@ class TicTacToe
    def over?
      draw? || won?
    end
+   
+   def winner
+    if won? == "X"
+      puts "X"
+    else
+      puts "O"
+   end
 
 end
